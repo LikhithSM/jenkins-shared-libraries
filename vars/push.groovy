@@ -5,3 +5,4 @@ echo 'This is pushing the image to dockerhub'
                 sh "docker tag my-notes:latest ${dockerHubUser}/${img}:${ver}"
                 sh "docker push ${dockerHubUser}/${img}:${ver}"
 }
+}
